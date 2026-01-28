@@ -1,0 +1,6 @@
+2026-01-27 09:41:09 - ResearchAssistant - INFO - Starting research on topic: latest developments in artificial intelligence
+2026-01-27 09:41:09 - ResearchAssistant - ERROR - Research failed: Can't instantiate abstract class ResearchOrchestrator without an implementation for abstract method 'process'
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\Desktop\ARA\main.py", line 76, in research
+    orchestrator = ResearchOrchestrator(topic, self.config)
+TypeError: Can't instantiate abstract class ResearchOrchestrator without an implementation for abstract method 'process'
